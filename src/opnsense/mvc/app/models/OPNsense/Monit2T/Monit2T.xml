@@ -1,0 +1,16 @@
+<model>
+   <mount>//OPNsense/monit2t</mount>
+   <version>1.0.0</version>
+   <description>Monit2T settings</description>
+   <items>
+      <general>
+         <enabled type="BooleanField">
+            <Default>0</Default>
+            <Required>Y</Required>
+         </enabled>
+         <token type="TextField"/>
+         <chat_id type="TextField"/>
+         <message type="TextField"/>
+      </general>
+   </items>
+</model>

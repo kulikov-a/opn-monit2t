@@ -1,0 +1,9 @@
+A simple plugin that send Monit alerts to the telegram bot
+
+
+Plugin Changelog
+----------------
+
+1.0
+
+* Initial release

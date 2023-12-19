@@ -1,0 +1,7 @@
+<menu>
+   <Services>
+      <Monit>
+         <Telegram order="90" url="/ui/monit2t"/>
+      </Monit>
+   </Services>
+</menu>

@@ -1,0 +1,10 @@
+<acl>
+   <page-Monit2T>
+      <name>Monit2T</name>
+      <description>Allow access to the 'Services: Monit: Telegram' page.</description>
+      <patterns>
+         <pattern>ui/monit2t/*</pattern>
+         <pattern>api/monit2t/*</pattern>
+      </patterns>
+   </page-Monit2T>
+</acl>
