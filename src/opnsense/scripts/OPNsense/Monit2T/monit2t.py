@@ -44,7 +44,7 @@ if os.path.exists(t_conf):
         msg_vars = re.findall(r"{([^{]*?)}", message)
         env_vars={}
         for msg_var in msg_vars:
-            env_vars[msg_var] = os.getenv(msg_var, "null")
+            env_vars[msg_var] = os.getenv(msg_var, "null").replace('<','&lt').replace('>','&gt')
         t_send(token, chat_id, message.format(**env_vars))
     else:
         message = 'This is a test telegram message\nAlerts will be sent in the following format: \n\n' + message
