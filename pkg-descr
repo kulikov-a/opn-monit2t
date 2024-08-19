@@ -4,6 +4,10 @@ A simple plugin that send Monit alerts to the telegram bot
 Plugin Changelog
 ----------------
 
+1.1
+
+* OPNsense 24.7/FreeBSD 14.1 pkg
+
 1.0
 
 * Initial release
