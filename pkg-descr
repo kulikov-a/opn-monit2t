@@ -3,6 +3,9 @@ A simple plugin that send Monit alerts to the telegram bot
 
 Plugin Changelog
 ----------------
+1.2
+
+* message_thread_id support
 
 1.1
 

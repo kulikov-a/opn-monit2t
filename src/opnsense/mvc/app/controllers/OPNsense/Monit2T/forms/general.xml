@@ -18,6 +18,13 @@
       <help><![CDATA[Telegram Chat ID.]]></help>
    </field>
    <field>
+      <id>monit2t.general.message_thread_id</id>
+      <label>Topic Thread ID</label>
+      <type>text</type>
+      <advanced>true</advanced>
+      <help><![CDATA[Topic ID/Message_thread_ID to send to (if needed)]]></help>
+   </field>
+   <field>
       <id>monit2t.general.message</id>
       <label>Message</label>
       <type>textbox</type>

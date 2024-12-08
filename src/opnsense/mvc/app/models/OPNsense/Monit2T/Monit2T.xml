@@ -10,6 +10,7 @@
          </enabled>
          <token type="TextField"/>
          <chat_id type="TextField"/>
+         <message_thread_id type="TextField"/>
          <message type="TextField"/>
       </general>
    </items>
